@@ -80,7 +80,7 @@ class BstPerpustakaan:
     
     def height(self, node, ):
        if node is None:
-        return -1
+        return 0
        
        left_height = self.height(node.left)
        right_height = self.height(node.right)
